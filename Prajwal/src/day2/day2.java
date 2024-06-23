@@ -6,6 +6,8 @@ public class day2 {
    {
 	   System.out.print("Prajwal");
 	   System.out.print("Naik");
+	   System.out.print("Pramod");
+	   
 	   
    }
 }
