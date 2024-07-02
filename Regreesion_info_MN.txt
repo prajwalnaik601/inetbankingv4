@@ -1,0 +1,288 @@
+Workstation:-
+/opt/git/regression-auto-runner/autoRunner/workstations/bangalore/CMM_ATE_71.3Linux_main
+
+Cmd file:-
+
+/opt/git/regression-auto-runner/autoRunner/command/bangalore/genericTopology_startServerRunRegression_hybrid_rtb71_enabledNetConf_nfmm.txt
+
+
+Set-up:-
+
+/opt/git/regression-auto-runner/autoRunner/setup/bangalore/NFM-M23.3
+
+
+rootcontext:-
+/opt/ossi_testlab.local/rootContext/bangalore/scrumRegression/
+
+rtb71_XmlRootContext
+
+
+Need to update CMM-Template_data:-
+
+/opt/ossi_testlab.local/scrumRegression/rtb71/templates/CMM_Template_Data_2320_generated.vm
+
+
+Need to upload rtb71.xml in below path:-
+/extra/working/bangalore/scrumRegression/additional
+
+10.93.114.191     ---------1st
+10.93.106.228     ---------2nd
+10.93.99.48------>rhel8 new
+
+http://clab1644node01.netact.nsn-rdnet.net/scheduler/over_view.pl?domain=regression
+
+
+CMM ATE:-
+
+10.39.144.84  ---- espate106a ----AMF
+
+10.39.144.88  ---- espate106b -----MME
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10.93.28.185
+[1:29 PM] Pranav Savaleram Shewale (Nokia)
+100.79.33.87
+
+##########workstation file:
+/opt/git/regression-auto-runner/autoRunner/workstations/bangalore/sunil_130_MG_18.3Linux_main
+ 
+######## Network:   Rootcontext:
+/opt/ossi_testlab.local/rootContext/bangalore/scrumRegression/sunilMG-130-local_XmlRootContext.xml
+ 
+
+#####setUp File:
+/opt/git/regression-auto-runner/autoRunner/setup/bangalore/NFMP_22_11
+ 
+######Command file:
+ 
+/opt/git/regression-auto-runner/autoRunner/command/bangalore/sunil_scrumProduction_installDbServer_runregression_MG_rtb7_ALLMAIN173.txt
+
+ALL_PCSCF_PROFILE_REGRESSION
+
+
+
+main.xml:-
+/opt/ossi_testlab/scrumRegression/rtb7/scen
+
+
+equpment.xml
+/opt/ossi_testlab/scrumRegression/rtb7/scen/Equipment
+[root@clab1644node01 Equipment]# vi equipment_tests.xml
+
+
+
+Tai_lai -- Fixed by meena
+Radius group - we can comment, it will work manually, need to check and fix it which might take time 
+
+SBA:-  Script issue fixed by me
+
+
+
+Node A12.0 R17 -100.79.33.93 CPM
+Node B21.8R11 -100.79.33.78 CPM   
+Node C22.0 R2 - 100.79.33.79 CPM
+Node D22.5 R9 -  100.79.33.84 CPM
+Node E22.8 R1 - 100.79.33.83 CPM
+Node F23.0 R1 -100.79.33.87 CPM
+
+
+
+root/NspRgr1! ------------- aquaman  135.228.128.60
+
+
+
+
+
+
+Secondary Paths :
+
+
+Workstation:-
+	
+
+ 
+
+or
+
+ 
+
+/opt/git/regression-auto-runner/autoRunner/workstations/bangalore/Pavan_CMM_ATE_71.3Linux_main
+
+ 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Cmd file:-
+
+ 
+
+/opt/git/regression-auto-runner/autoRunner/command/bangalore/genericTopology_startServerRunRegression_hybrid_rtb71_enabledNetConf_nfmm.txt
+
+ 
+
+or
+
+ 
+
+/opt/git/regression-auto-runner/autoRunner/command/bangalore/genericTopology_startServerRunRegression_hybrid_rtb71_enabledNetConf_nfmm2.txt
+
+ 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+ 
+
+Set-up:-
+
+ 
+
+/opt/git/regression-auto-runner/autoRunner/setup/bangalore/NFM-M23.3
+
+ 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+ 
+
+rootcontext:-
+/opt/ossi_testlab.local/rootContext/bangalore/scrumRegression/rtb71_XmlRootContext.xml
+
+ 
+
+or
+
+ 
+
+/opt/ossi_testlab.local/rootContext/bangalore/scrumRegression/Pavan-rtb71_XmlRootContext.xml
+
+ 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+
+
+
+%s/oldip/newip/g
+
+
+
+
+
+
+pavan_130_MG_18.3Linux_main
+
+pavan_scrumProduction_installDbServer_runregression_MG_rtb7_ALLMAIN173.txt
+
+pavanMG-130-local_XmlRootContext.xml
+
+
+
+
+
+CMG Regression paths for 2ndary scheduler
+
+
+
+workstation - /opt/git/regression-auto-runner/autoRunner/workstations/bangalore/sunil_130_MG_18.3Linux_main
+network file - /opt/ossi_testlab.local/rootContext/bangalore/scrumRegression/sunilMG-130-local_XmlRootContext.xml
+setup file - /opt/git/regression-auto-runner/autoRunner/setup/bangalore/NFMP_22_11
+command file - 
+/opt/git/regression-auto-runner/autoRunner/command/bangalore/sunil_scrumProduction_installDbServer_runregression_MG_rtb7_ALLMAIN173.txt
+
+
+
+workstation : /opt/git/regression-auto-runner/autoRunner/workstations/bangalore/prajwal_130_MG_18.3Linux_main
+
+network file : /opt/ossi_testlab.local/rootContext/bangalore/scrumRegression/prajwalMG-130-local_XmlRootContext.xml
+
+command file - /opt/git/regression-auto-runner/autoRunner/command/bangalore/prajwal_scrumProduction_installDbServer_runregression_MG_rtb7_ALLMAIN173.txt
+
+
+
+
+
+
+
+	VM -10.91.67.164
+Path :- /opt/pavan/  
+
+
+10.23.207.252  ---- shapley fw
+
+
+10.32.182.215------------?rhel 8 regression
+
+
+
+
+
+
+ossi_testlab/rootContext/bangalore/scrumRegression/additional/rtb71.xml
+ossi_testlab/scrumRegression/rtb71/templates/ -> .vm file
+ossi_testlab/scrumRegression/rtb71/scen/generated/  -> new test cases will be added
+
+main.xml
+
+
+Need to upload rtb71.xml in below path:-
+/extra/working/bangalore/scrumRegression/additional
+
+
+add NFMM details under this path
+/_regressionScheduler/data/predefined/regression
+
+
+
+
+Before triggering cmg run for new release
+
+
+
+/opt/git/regression-auto-runner/autoRunner/setup
+
+
+buildLocationInfo.txt
+
+streamToVersion.txt
+
+
+
+CMM BUIL DETAILS:
+ 
+wmmwebrh6.ih.lucent.com/~rahudak/reportcmmexpress2280.html
+
+Daily build: CMM Schema Files (lucent.com)
+ 
+Released build: CMM 4LS - CMM22.8 (sharepoint.com)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
